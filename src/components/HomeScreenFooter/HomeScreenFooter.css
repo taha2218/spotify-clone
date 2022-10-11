@@ -1,0 +1,45 @@
+.homeScreenFooter__container {
+    background-color: #181818;
+    width: 100vw;
+    height: 9vh;
+}
+
+.track__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 9vh;
+}
+
+.song_details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.song__img {
+    height: 6vh;
+    object-fit: contain;
+    margin-left: 16px;
+}
+
+.name_artist {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.name_artist {
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.artists > span {
+    margin-right: 6px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.445);
+}

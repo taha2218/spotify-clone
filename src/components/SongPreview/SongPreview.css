@@ -1,0 +1,152 @@
+.SongPreview__container {
+  height: 82.6vh;
+  background-color: #121212;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.song__details {
+  height: 28vh;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  object-fit: contain;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.song__details > img {
+  width: 24vh;
+  height: 24vh;
+  margin-left: 1.5vw;
+}
+
+.info {
+  height: 24vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  margin-left: 1.5vw;
+}
+
+.info > h1 {
+  font-size: 80px;
+}
+
+.info > .space {
+  height: 3.8vh;
+}
+
+.info > h6 {
+  letter-spacing: 1.3px;
+}
+
+.desc {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.562);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.info > h6 > span {
+  font-weight: 400;
+}
+
+.tracks {
+  height: 54.6vh;
+  width: 100%;
+  overflow-y: scroll;
+  color: white;
+  padding: 10px 0px;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+.tracks {
+  width: 100%;
+}
+
+.song__tile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.4fr;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.song__tile:hover {
+    background-color: #dad8d81f;
+    cursor: default;
+}
+
+.avatar__tile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar__tile > img {
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.avatar__tile > h5 {
+  margin: 0px 5px;
+  font-weight: 600;
+}
+
+.song__artist > span {
+  font-size: 14px;
+}
+
+.song__artist > span > h5 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.589);
+  font-weight: 300;
+}
+
+.tracks::-webkit-scrollbar {
+  display: none;
+}
+
+.line__artists {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.line__artists > h5 {
+  margin-right: 10px;
+}
+
+.album__name {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.song__tile:hover  .album__name{
+    color: #1DB954;
+}
+
+.album__name > h5 {
+  font-size: 14px;
+}
+
+.song__duration {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin-right: 10px;
+}

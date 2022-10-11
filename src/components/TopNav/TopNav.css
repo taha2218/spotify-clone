@@ -1,0 +1,33 @@
+.TopNav__Container {
+    height: 8.4vh;
+    width: 100%;
+    background-color: #070707;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNav__arrows {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow__icon {
+    margin-left: 20px;
+}
+
+.topNav__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.808);
+    cursor: pointer;
+}
+
+.topNav__details > span {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 500;
+}

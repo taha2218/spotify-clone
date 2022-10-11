@@ -1,0 +1,25 @@
+.Albums__container {
+    flex-grow: 1;
+    width: 88%;
+    margin-top: 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.253);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+    font-weight: 400;
+}
+
+.tile {
+    padding-top: 15px;
+}
+
+.tile:hover {
+    color: white;
+}

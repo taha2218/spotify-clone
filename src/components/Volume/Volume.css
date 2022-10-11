@@ -1,0 +1,13 @@
+.volume__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    gap: 8px;
+}
+
+.volume__container > input {
+    outline: none;
+    border: none;
+    height: 0.3rem;
+}
